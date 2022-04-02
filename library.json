@@ -1,0 +1,21 @@
+{
+  "name": "defs",
+  "version": "0.0.3",
+  "description": "Some macros I use with the Uno and Nao.",
+  "keywords": "defs",
+  "repository":
+    {
+      "type": "git",
+      "url": "git@github.com:home-controller/defs.git"
+    },
+  "authors":
+  [
+    {
+      "name": "jmnc2",
+      "email": "49760581+jmnc2@users.noreply.github.com",
+      "url": "https://github.com/jmnc2"
+    }
+  ],
+  "dependencies": {
+  }
+}
