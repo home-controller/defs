@@ -2,7 +2,7 @@
  * @file defs.h
  * @author your name (you@domain.com)
  * @brief 
- * @version 0.0.3
+ * @version 0.0.4
  * @date 2022-03-03
  * 
  * @copyright Copyright (c) 2022
