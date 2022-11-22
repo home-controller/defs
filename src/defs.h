@@ -25,7 +25,23 @@
  #define _pwmPins {3, 5, 6, 9, 10, 11}//timer interferes with 5 & 6
  #define InOnlyPins = 2 // ATmega328P chips have 2 analog input only pins namely A6 & A7. Some older boards do not bring them out to pins but most do.
 #endif  
-#define MCU_type nano_mcu
+//#define MCU_type nano_mcu
+
+// Arduino board types
+#define unknown_board  0
+#define Uno_board  1
+#define Nano_board 2
+
+#if defined(ARDUINO_AVR_NANO)
+  #define _Nano
+  #define board_type Nano_board
+#elif defined(ARDUINO_AVR_UNO)
+  #define _Uno
+  #define board_type Uno_board
+#else
+   #define board_type unknown_board 
+#endif  
+
 
 extern byte pwm_pins[];// = _pwmPins;
 // an empty array for arrays where the first element is the array size.
