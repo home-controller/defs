@@ -39,6 +39,7 @@
   #define _Uno
   #define board_type Uno_board
 #else
+   #define _pwmPins {0xff} //using the max value with array size of 1 only to signify that there are no pwm pins.
    #define board_type unknown_board 
 #endif  
 
