@@ -1,6 +1,6 @@
 /**
  * @file defs.h
- * @author your name (you@domain.com)
+ * @author jmnc2 (you@domain.com)
  * @brief 
  * @version 0.0.4
  * @date 2022-03-03
