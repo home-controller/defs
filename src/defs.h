@@ -34,10 +34,12 @@
 
 #if defined(ARDUINO_AVR_NANO)
   #define _Nano
+  #define board_name "Nano"
   #define board_type Nano_board
 #elif defined(ARDUINO_AVR_UNO)
   #define _Uno
   #define board_type Uno_board
+  #define board_name "Uno"
 #else
    #define _pwmPins {0xff} //using the max value with array size of 1 only to signify that there are no pwm pins.
    #define board_type unknown_board 
