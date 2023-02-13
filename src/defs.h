@@ -117,6 +117,7 @@ extern byte eA[];
 #define D19 PIN_D19
 #endif
 
+// The type of Input the switch is on. e.g. Local mcu GPIO pin, 1wire, IO extender, shift register etc.
 #define ct_pin 0    //ct stands for controller type
 #define ct_1wire 1
 #define ct_I2C 2    // this should probably be more specific as in a type of i2c IO expander.
