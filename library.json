@@ -1,6 +1,6 @@
 {
   "name": "defs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Some macros I use with the Uno and Nao.",
   "keywords": "defs",
   "repository":
@@ -16,6 +16,7 @@
       "url": "https://github.com/jmnc2"
     }
   ],
+  "license": "Apache-2.0",
   "dependencies": {
   }
 }

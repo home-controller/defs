@@ -2,10 +2,9 @@
  * @file defs.h
  * @author jmnc2 (you@domain.com)
  * @brief
- * @version 0.0.4
+ * @version 0.0.5
  * @date 2022-03-03
- *
- * @copyright Copyright (c) 2022
+ * @copyright Copyright (c) 2024, license Apache-2.0
  *
  */
 #ifndef _defs_h
