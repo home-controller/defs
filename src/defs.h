@@ -38,7 +38,7 @@
 #define mem_sram 2560
 #define _pwmPins           \
   {                        \
-    3, 5, 6, 9, 10, 11 \  
+    3, 5, 6, 9, 10, 11     \
       \
   } // Pro Micro don't have pins 11,12,13 brocken out.
 
